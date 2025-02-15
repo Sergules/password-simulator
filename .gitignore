@@ -1,0 +1,10 @@
+# Standard web project .gitignore
+/node_modules
+.DS_Store
+*.log
+.env
+.venv
+dist/
+build/
+.vscode/
+.idea/
