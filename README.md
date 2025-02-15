@@ -7,8 +7,6 @@ A JavaScript-based tool for analyzing password security using zxcvbn algorithm.
 - Brute-force time estimation
 - Common password warnings
 
-## Demo
-![Demo GIF](url-to-gif) ← Add this later after deployment
 
 ## Usage
 1. Clone repo
