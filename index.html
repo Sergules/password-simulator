@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     <h1>Password Security Lab</h1>
+    <div class="score-display">
+      Strength: <span class="score-number" id="scoreNumber">0</span>/4
+    </div>
     <input type="password" id="passwordInput" placeholder="Test a password...">
-    <div id="strengthMeter"></div>
+    <div id="strengthMeter">
+      <div class="strength-bar"></div>
+    </div>
     <div id="feedback"></div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.4.2/zxcvbn.js"></script>
